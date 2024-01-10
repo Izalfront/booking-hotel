@@ -1,0 +1,21 @@
+.img__background {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.img__background img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+section {
+  margin-top: 0%;
+}
+
+.hero__content {
+  padding-top: 0%;
+}

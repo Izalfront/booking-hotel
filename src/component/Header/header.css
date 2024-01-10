@@ -1,7 +1,9 @@
 .header {
+  top: 0;
+  left: 0;
+  height: 6%;
   width: 100%;
-  height: 80px;
-  line-height: 80px;
+  z-index: 1000;
 }
 
 .logo img {
@@ -28,17 +30,11 @@
   color: var(--secondary-color);
 }
 
-.mobile__menu {
-  font-size: 1.3rem;
-  color: var(--heading-color);
-  display: none;
-}
-
 .sticky__header {
   width: 100%;
   height: 80px;
   line-height: 80px;
-  background: #fff;
+  background: #c15d5d;
   position: sticky;
   top: 0;
   left: 0;
