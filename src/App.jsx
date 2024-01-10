@@ -1,8 +1,9 @@
 import './assets/style/styles.css';
+import Layout from './component/Layout/Layout';
 function App() {
   return (
     <>
-      <h1>hello world</h1>
+      <Layout />
     </>
   );
 }
