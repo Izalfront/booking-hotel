@@ -38,7 +38,7 @@ const Home = () => {
     ],
   };
   return (
-    <section>
+    <>
       {/* ======== hero section start ========== */}
 
       <div className="hero__content">
@@ -66,7 +66,7 @@ const Home = () => {
           </Slider>
         </div>
       </div>
-    </section>
+    </>
   );
 };
 

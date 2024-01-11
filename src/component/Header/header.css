@@ -1,9 +1,8 @@
 .header {
-  top: 0;
-  left: 0;
-  height: 6%;
   width: 100%;
-  z-index: 1000;
+  height: 80px;
+  line-height: 80px;
+  background: tan;
 }
 
 .logo img {
@@ -13,13 +12,15 @@
 .menu {
   margin-bottom: 0;
 }
+.container {
+  white-space: nowrap;
+}
 
 .nav__item a {
   text-decoration: none;
   color: var(--heading-color);
   font-weight: 500;
   font-size: 1.1rem;
-  white-space: nowrap;
 }
 
 .nav__item a:hover {
@@ -34,7 +35,7 @@
   width: 100%;
   height: 80px;
   line-height: 80px;
-  background: #c15d5d;
+  background: #fff;
   position: sticky;
   top: 0;
   left: 0;
