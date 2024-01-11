@@ -46,16 +46,16 @@ function Header() {
         <Row>
           <div className="nav__wrapper d-flex align-items-center justify-content-between">
             {/* ========= logo start ========== */}
-            {/* <div className="logo">
+            <div className="logo">
               <img src={Logo} alt="" />
-            </div> */}
+            </div>
             {/* ========= logo end ========== */}
             {/* ========= menu start ========= */}
             <div className="navigation">
               <ul className="menu d-flex align-items-center gap-5">
                 {nav__links.map((item, index) => (
                   <li className="nav__item" key={index}>
-                    <NavLink activeClassName="active__link" to={item.path}>
+                    <NavLink className={(navClass) => (navClass.isActive ? 'active__link' : '')} to={item.path}>
                       {item.display}
                     </NavLink>
                   </li>
