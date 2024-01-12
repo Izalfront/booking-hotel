@@ -2,6 +2,8 @@
 import React from 'react';
 import '../styles/home.css';
 import Slider from 'react-slick';
+import CarouselCard from '../component/Card-carousel/CarouselCard';
+import { Container, Row, Col } from 'reactstrap';
 // import img
 import Kamar from '../../src/assets/img/kamar.jpg';
 import Kolam from '../../src/assets/img/kolam renang.jpg';
@@ -66,6 +68,17 @@ const Home = () => {
           </Slider>
         </div>
       </div>
+      {/* ======= end ======= */}
+      <section>
+        <h1 className="flex text-center">Pelayanan Kami</h1>
+        <Container>
+          <Row>
+            <Col lg="12">
+              <CarouselCard />
+            </Col>
+          </Row>
+        </Container>
+      </section>
     </>
   );
 };
