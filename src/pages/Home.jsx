@@ -69,11 +69,11 @@ const Home = () => {
         </div>
       </div>
       {/* ======= end ======= */}
-      <section>
+      <section className="flex">
         <h1 className="flex text-center">Pelayanan Kami</h1>
         <Container>
           <Row>
-            <Col className="carousel-container" style={{ maxWidth: '600px' }} lg="5">
+            <Col className="carousel-container mx-auto" style={{ maxWidth: '600px', height: '600px', overflow: 'hidden' }}>
               <CarouselCard />
             </Col>
           </Row>
