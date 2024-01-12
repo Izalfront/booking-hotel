@@ -73,7 +73,7 @@ const Home = () => {
         <h1 className="flex text-center">Pelayanan Kami</h1>
         <Container>
           <Row>
-            <Col lg="12">
+            <Col className="carousel-container" style={{ maxWidth: '600px' }} lg="5">
               <CarouselCard />
             </Col>
           </Row>
