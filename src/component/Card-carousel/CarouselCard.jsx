@@ -11,10 +11,10 @@ import image5 from '../../../src/assets/img/image5.jpg';
 const CarouselCard = () => {
   const carouselData = [
     { title: 'Card 1', description: 'Description 1', image: image1 },
-    { title: 'Card 2', description: 'Description 2', image: image1 },
-    { title: 'Card 3', description: 'Description 3', image: image1 },
-    { title: 'Card 4', description: 'Description 4', image: image1 },
-    { title: 'Card 5', description: 'Description 5', image: image1 },
+    { title: 'Card 2', description: 'Description 2', image: image2 },
+    { title: 'Card 3', description: 'Description 3', image: image3 },
+    { title: 'Card 4', description: 'Description 4', image: image4 },
+    { title: 'Card 5', description: 'Description 5', image: image5 },
   ];
 
   const settings = {
@@ -24,7 +24,7 @@ const CarouselCard = () => {
     speed: 1000,
     swipeToSlide: true,
     autoplaySpeed: 2000,
-    slidesToShow: 1,
+    slidesToShow: 3,
 
     responsive: [
       {
