@@ -20,3 +20,14 @@ section {
 .hero__content {
   padding-top: 0%;
 }
+
+.carousel-card {
+  position: relative;
+  width: 100%; /* Sesuaikan lebar sesuai kebutuhan desain Anda */
+  height: 400px; /* Sesuaikan tinggi sesuai kebutuhan desain Anda */
+}
+
+.carousel-card img {
+  width: 100%;
+  height: 100%;
+}
