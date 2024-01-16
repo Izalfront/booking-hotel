@@ -31,3 +31,8 @@ section {
   width: 100%;
   height: 100%;
 }
+
+.pelayanan__title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
