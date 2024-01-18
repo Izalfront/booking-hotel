@@ -21,6 +21,10 @@ section {
   padding-top: 0%;
 }
 
+.card-content {
+  margin: 1rem;
+}
+
 .carousel-card {
   position: relative;
   width: 100%;
@@ -43,6 +47,7 @@ section {
 .slider__card {
   display: flex;
   gap: 1rem;
+  padding: 1.5rem;
 }
 
 .pelayanan__title {
