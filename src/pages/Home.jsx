@@ -3,6 +3,8 @@ import React from 'react';
 import '../styles/home.css';
 import Slider from 'react-slick';
 import CarouselCard from '../component/Card-carousel/CarouselCard';
+import Konten from '../component/Konten/Konten';
+import Akomodasi from '../component/Akomodasi/Akomodasi';
 import { Container, Row, Col } from 'reactstrap';
 // import img
 import Kamar from '../../src/assets/img/kamar.jpg';
@@ -77,6 +79,16 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
+      </section>
+      {/* ======= start content ========= */}
+      <section>
+        <Col className="konten-container">
+          <Konten />
+        </Col>
+      </section>
+      {/* ======= start akomodasi ======== */}
+      <section>
+        <Akomodasi />
       </section>
     </>
   );

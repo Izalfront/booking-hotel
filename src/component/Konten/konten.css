@@ -1,0 +1,24 @@
+.konten__1 {
+  display: flex;
+}
+
+.image_konten {
+  margin-right: 4rem;
+}
+
+.image_konten img {
+  width: 50rem;
+  height: 50rem;
+  left: 0%;
+}
+
+.desc__konten1 {
+  margin-top: 4rem;
+  margin-right: 4rem;
+}
+
+.judul__konten1 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
