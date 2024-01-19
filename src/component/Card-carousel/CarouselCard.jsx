@@ -10,11 +10,11 @@ import image4 from '../../../src/assets/img/image4.jpg';
 import image5 from '../../../src/assets/img/image5.jpg';
 const CarouselCard = () => {
   const carouselData = [
-    { title: 'Card 1', description: 'Description 1', image: image1 },
-    { title: 'Card 2', description: 'Description 2', image: image2 },
-    { title: 'Card 3', description: 'Description 3', image: image3 },
-    { title: 'Card 4', description: 'Description 4', image: image4 },
-    { title: 'Card 5', description: 'Description 5', image: image5 },
+    { title: 'Premium Suite', description: 'Suite kamar yang nyaman dengan fasilitas premium.', image: image1 },
+    { title: 'Deluxe Room', description: 'Kamar mewah dengan pemandangan indah.', image: image2 },
+    { title: 'Executive Room', description: 'Kamar eksklusif untuk pengalaman menginap yang istimewa.', image: image3 },
+    { title: 'Family Villa', description: 'Villa besar untuk keluarga dengan suasana yang hangat.', image: image4 },
+    { title: 'Ocean View Penthouse', description: 'Penthouse dengan pemandangan laut yang menakjubkan.', image: image5 },
   ];
 
   const settings = {
@@ -54,7 +54,7 @@ const CarouselCard = () => {
             <img src={item.image} alt={item.title} />
             <div className="card-content">
               <h3>{item.title}</h3>
-              <p>{item.description}</p>
+              <p style={{ whiteSpace: 'pre-line' }}>{item.description}</p>
             </div>
           </div>
         ))}

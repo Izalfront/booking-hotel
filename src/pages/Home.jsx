@@ -7,8 +7,6 @@ import { Container, Row, Col } from 'reactstrap';
 // import img
 import Kamar from '../../src/assets/img/kamar.jpg';
 import Kolam from '../../src/assets/img/kolam renang.jpg';
-import Acara from '../../src/assets/img/ruang acara.jpg';
-import Bermain from '../../src/assets/img/ruang bermain.jpg';
 import Rapat from '../../src/assets/img/ruang rapat.jpg';
 const Home = () => {
   const settings = {
@@ -45,7 +43,7 @@ const Home = () => {
 
       <div className="hero__content">
         <div className="img__background">
-          <Slider {...settings}>
+          <Slider {...settings} className="slider__bg">
             <div className="img__child">
               <img src={Kamar} alt="" />
             </div>
@@ -55,16 +53,17 @@ const Home = () => {
             </div>
 
             <div className="img__child">
-              <img src={Acara} alt="" />
+              <img src={Rapat} alt="" />
             </div>
 
             <div className="img__child">
-              <img src={Bermain} alt="" />
+              <img src={Kamar} alt="" />
             </div>
 
             <div className="img__child">
               <img src={Rapat} alt="" />
             </div>
+            {/* <div className="white__bg"></div> */}
           </Slider>
         </div>
       </div>
@@ -73,7 +72,7 @@ const Home = () => {
         <h1 className="flex text-center pelayanan__title">Pelayanan Kami</h1>
         <Container>
           <Row>
-            <Col className="carousel-container mx-auto">
+            <Col className="carousel-container ">
               <CarouselCard />
             </Col>
           </Row>
