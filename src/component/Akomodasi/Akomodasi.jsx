@@ -42,23 +42,47 @@ const Akomodasi = () => {
       <div className="img__background">
         <Slider {...settings} className="slide__bg">
           <div className="img__child" style={{ position: 'relative' }}>
-            <img src={Kamar} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-            <h1 className="h1-background">hello</h1>
-          </div>
-
-          <div className="img__child">
-            <img src={Kolam} alt="" />
-          </div>
-
-          <div className="img__child">
-            <img src={Rapat} alt="" />
-          </div>
-
-          <div className="img__child">
+            <div className="h1-background">
+              <h1>Luxury Rooms</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, sequi.</p>
+              <a href="#">Jelajahi</a>
+            </div>
             <img src={Kamar} alt="" />
           </div>
 
-          <div className="img__child">
+          <div className="img__child" style={{ position: 'relative' }}>
+            <div className="h1-background">
+              <h1>Serene Pool</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, sequi.</p>
+              <a href="#">Jelajahi</a>
+            </div>
+            <img src={Kolam} alt="" />
+          </div>
+
+          <div className="img__child" style={{ position: 'relative' }}>
+            <div className="h1-backgroundmeet">
+              <h1>Professional Meeting Spaces</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, sequi.</p>
+              <a href="#">Jelajahi</a>
+            </div>
+            <img src={Rapat} alt="" />
+          </div>
+
+          <div className="img__child" style={{ position: 'relative' }}>
+            <div className="h1-background">
+              <h1>Luxury Rooms</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, sequi.</p>
+              <a href="#">Jelajahi</a>
+            </div>
+            <img src={Kamar} alt="" />
+          </div>
+
+          <div className="img__child" style={{ position: 'relative' }}>
+            <div className="h1-backgroundmeet">
+              <h1>Professional Meeting Spaces</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, sequi.</p>
+              <a href="#">Jelajahi</a>
+            </div>
             <img src={Rapat} alt="" />
           </div>
         </Slider>
