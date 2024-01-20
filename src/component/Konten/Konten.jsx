@@ -15,6 +15,7 @@ const Konten = () => {
         </div>
         <div className="desc__konten1">
           <p className="judul__konten1">CROWNE PLAZA BANDUNG</p>
+          <div className="line" style={{ margin: '0', width: '15%', marginTop: '2rem', marginBottom: '0' }}></div>
           <p className="desc__konten1">{desc1}</p>
         </div>
       </div>

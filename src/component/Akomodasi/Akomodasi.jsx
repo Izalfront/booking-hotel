@@ -41,8 +41,9 @@ const Akomodasi = () => {
       <div className="line"></div>
       <div className="img__background">
         <Slider {...settings} className="slide__bg">
-          <div className="img__child">
-            <img src={Kamar} alt="" />
+          <div className="img__child" style={{ position: 'relative' }}>
+            <img src={Kamar} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <h1 className="h1-background">hello</h1>
           </div>
 
           <div className="img__child">
