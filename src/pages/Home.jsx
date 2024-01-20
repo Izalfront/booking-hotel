@@ -72,6 +72,7 @@ const Home = () => {
       {/* ======= end ======= */}
       <section className="flex">
         <h1 className="flex text-center pelayanan__title">Pelayanan Kami</h1>
+        <div className="line"></div>
         <Container>
           <Row>
             <Col className="carousel-container ">
