@@ -4,7 +4,7 @@
 }
 
 .img__content {
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 
 .img__content img {
@@ -18,7 +18,27 @@
   font-weight: 500;
   color: var(--primary-color);
   margin-top: 5rem;
-  margin-left: 15rem;
+  margin-left: 11rem;
+}
+
+.desc__detail {
+  margin-top: 0rem;
+  margin-left: 11rem;
+}
+
+.line {
+  padding: 1rem;
+  margin-right: 55%;
+  margin-left: 45%;
+  border-top: solid 2px var(--primary-color);
+}
+
+.btn__jelajahi {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.8rem 2.5rem;
+  background-color: var(--primary-color);
+  color: #fff;
 }
 
 /* ====== grid 2 ======= */
@@ -39,4 +59,11 @@
   color: var(--primary-color);
   margin-top: 5rem;
   margin-right: 15rem;
+}
+
+.line2 {
+  padding: 2rem;
+  margin-right: 45%;
+  margin-left: 45%;
+  border-top: solid 2px var(--primary-color);
 }
