@@ -1,0 +1,42 @@
+.grid__1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img__content {
+  margin-left: 2rem;
+}
+
+.img__content img {
+  width: 46.2rem;
+  height: 35rem;
+  right: 0%;
+}
+
+.desc__1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-top: 5rem;
+  margin-left: 15rem;
+}
+
+/* ====== grid 2 ======= */
+
+.img__content2 {
+  margin-right: 2rem;
+}
+
+.img__content2 img {
+  width: 46.2rem;
+  height: 35rem;
+  left: 0%;
+}
+
+.desc__2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-top: 5rem;
+  margin-right: 15rem;
+}

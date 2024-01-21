@@ -5,6 +5,7 @@ import Slider from 'react-slick';
 import CarouselCard from '../component/Card-carousel/CarouselCard';
 import Konten from '../component/Konten/Konten';
 import Akomodasi from '../component/Akomodasi/Akomodasi';
+import Grid from '../component/Grid/Grid';
 import { Container, Row, Col } from 'reactstrap';
 // import img
 import Kamar from '../../src/assets/img/kamar.jpg';
@@ -90,6 +91,12 @@ const Home = () => {
       {/* ======= start akomodasi ======== */}
       <section>
         <Akomodasi />
+      </section>
+      {/* ====== start grid ====== */}
+      <section>
+        <Col className="grid-container">
+          <Grid />
+        </Col>
       </section>
     </>
   );
