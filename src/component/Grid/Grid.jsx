@@ -34,7 +34,13 @@ const Grid = () => {
           <div className="desc__2">
             <p>Ruang Bermain</p>
           </div>
-          <div className="line2" style={{ margin: '0', width: '15%', marginTop: '2rem' }}></div>
+          <div className="line2" style={{ margin: '0', width: '15%', marginTop: '2rem', marginBottom: '0' }}></div>
+          <div className="desc__detail2">
+            <p>Dapatkan informasi lebih lanjut mengenai ruang pertemuan kami yang berlokasi di lantai khusus, dilengkapi ruangan meeting dengan berbagai ukuran.</p>
+            <a href="#" className="btn__jelajahi">
+              Jelajahi
+            </a>
+          </div>
         </div>
       </div>
     </div>
