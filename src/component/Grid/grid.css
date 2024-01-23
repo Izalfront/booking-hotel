@@ -26,9 +26,9 @@
   margin-left: 11rem;
 }
 
-.line {
-  padding: 1rem;
-  margin-right: 55%;
+.line1 {
+  padding: 2rem;
+  margin-right: 45%;
   margin-left: 45%;
   border-top: solid 2px var(--primary-color);
 }
@@ -39,6 +39,10 @@
   padding: 0.8rem 2.5rem;
   background-color: var(--primary-color);
   color: #fff;
+}
+
+.isi__1 {
+  padding-bottom: 1rem;
 }
 
 /* ====== grid 2 ======= */
@@ -74,4 +78,8 @@
 .desc__detail2 {
   margin-top: 0%;
   margin-right: 2rem;
+}
+
+.isi__2 {
+  padding-bottom: 1rem;
 }

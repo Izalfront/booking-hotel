@@ -6,6 +6,7 @@ import CarouselCard from '../component/Card-carousel/CarouselCard';
 import Konten from '../component/Konten/Konten';
 import Akomodasi from '../component/Akomodasi/Akomodasi';
 import Grid from '../component/Grid/Grid';
+import Map from '../component/Map/Map';
 import { Container, Row, Col } from 'reactstrap';
 // import img
 import Kamar from '../../src/assets/img/kamar.jpg';
@@ -97,6 +98,10 @@ const Home = () => {
         <Col className="grid-container">
           <Grid />
         </Col>
+      </section>
+      {/* ====== start map ======= */}
+      <section>
+        <Map />
       </section>
     </>
   );

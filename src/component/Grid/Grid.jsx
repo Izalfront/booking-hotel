@@ -13,9 +13,11 @@ const Grid = () => {
           <div className="desc__1">
             <p>Ruang Rapat</p>
           </div>
-          <div className="line" style={{ marginLeft: '11rem' }}></div>
+          <div className="line1" style={{ marginLeft: '11rem', marginRight: '26rem', marginBottom: '0', paddingBottom: '0' }}></div>
           <div className="desc__detail">
-            <p>Dapatkan informasi lebih lanjut mengenai ruang pertemuan kami yang berlokasi di lantai khusus, dilengkapi ruangan meeting dengan berbagai ukuran.</p>
+            <div className="isi__1">
+              <p>Dapatkan informasi lebih lanjut mengenai ruang pertemuan kami yang berlokasi di lantai khusus, dilengkapi ruangan meeting dengan berbagai ukuran.</p>
+            </div>
             <a href="#" className="btn__jelajahi">
               Jelajahi
             </a>
@@ -36,7 +38,9 @@ const Grid = () => {
           </div>
           <div className="line2" style={{ margin: '0', width: '15%', marginTop: '2rem', marginBottom: '0' }}></div>
           <div className="desc__detail2">
-            <p>Dapatkan informasi lebih lanjut mengenai ruang pertemuan kami yang berlokasi di lantai khusus, dilengkapi ruangan meeting dengan berbagai ukuran.</p>
+            <div className="isi__2">
+              <p>Dapatkan informasi lebih lanjut mengenai ruang pertemuan kami yang berlokasi di lantai khusus, dilengkapi ruangan meeting dengan berbagai ukuran.</p>
+            </div>
             <a href="#" className="btn__jelajahi">
               Jelajahi
             </a>
