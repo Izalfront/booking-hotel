@@ -1,0 +1,27 @@
+[
+  {
+    "image": "../../../src/assets/img/image1.jpg",
+    "title": "Twin Bed Deluxe Room Bebas Rokok",
+    "caption": "Nikmati kamar dengan luas 34 sqm yang dirancang untuk menemani waktu liburan atau bekerja, ditemani dengan pemandangan pegunungan yang mengelilingi Kota Bandung"
+  },
+  {
+    "image": "../../../src/assets/img/image2.jpg",
+    "title": "1 Queen Bed Deluxe Room Bebas Rokok",
+    "caption": "Nikmati kamar dengan luas 34 sqm yang dirancang untuk menemani waktu liburan atau bekerja, ditemani dengan pemandangan pegunungan yang mengelilingi Kota Bandung"
+  },
+  {
+    "image": "../../../src/assets/img/image3.jpg",
+    "title": "Twin Bed Club Room Bebas Rokok",
+    "caption": "Kamar klub kami memiliki luas 34 sqm, dengan akses Internet berkecepatan tinggi."
+  },
+  {
+    "image": "../../../src/assets/img/image4.jpg",
+    "title": "1 Queen Bed Club Room Bebas Rokok",
+    "caption": "Kamar klub kami memiliki luas 34 sqm, dengan akses Internet berkecepatan tinggi."
+  },
+  {
+    "image": "../../../src/assets/img/image5.jpg",
+    "title": "1 King Bed Premier Club",
+    "caption": "Kamar Premire Klub kami memiliki luas 45 sqm, nikmati kenyamanan sofa keluarga dan ruang kerja dengan akses."
+  }
+]

@@ -1,0 +1,46 @@
+.container__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.card1 {
+  width: 48%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-top: 10px;
+}
+
+.caption {
+  text-align: center;
+  font-size: 1rem;
+  color: #666;
+}
+
+.button__jelajahi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.button__jelajahi a {
+  text-decoration: none;
+  padding: 0.8rem 2.5rem;
+  font-weight: 400;
+  color: white;
+  background-color: var(--primary-color);
+}
