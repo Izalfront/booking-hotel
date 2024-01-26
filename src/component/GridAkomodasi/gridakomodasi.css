@@ -1,4 +1,5 @@
 .container__grid {
+  padding-top: 5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -25,9 +26,10 @@ img {
 }
 
 .caption {
+  padding-top: 1rem;
   text-align: center;
-  font-size: 1rem;
-  color: #666;
+  font-size: 0.9rem;
+  color: #787878;
 }
 
 .button__jelajahi {
@@ -35,6 +37,10 @@ img {
   align-items: center;
   justify-content: center;
   margin-top: 1.5rem;
+}
+
+.button__jelajahi a:hover {
+  background-color: #eb7601;
 }
 
 .button__jelajahi a {
