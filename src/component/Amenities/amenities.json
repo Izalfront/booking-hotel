@@ -1,0 +1,22 @@
+[
+  {
+    "image": "../../../src/assets/img/dapur.jpg",
+    "title": "Dapur mantap",
+    "description": "Suite kamar yang nyaman dengan fasilitas premium."
+  },
+  {
+    "image": "../../../src/assets/img/kolam2.jpg",
+    "title": "Kolam mantap",
+    "description": "Suite kamar yang nyaman dengan fasilitas premium."
+  },
+  {
+    "image": "../../../src/assets/img/makan.jpg",
+    "title": "Makan mantap",
+    "description": "Suite kamar yang nyaman dengan fasilitas premium."
+  },
+  {
+    "image": "../../../src/assets/img/meeting.jpeg",
+    "title": "Meeting mantap",
+    "description": "Suite kamar yang nyaman dengan fasilitas premium."
+  }
+]

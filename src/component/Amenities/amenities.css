@@ -1,0 +1,13 @@
+.fasilitas {
+  text-align: center;
+}
+
+.line {
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-right: 45%;
+  margin-left: 45%;
+  border-top: solid 2px var(--primary-color);
+}
+
+/* ====== carousel card ======= */
