@@ -1,0 +1,18 @@
+[
+  {
+    "image": "../../../src/assets/img/makanan1.jpg",
+    "title": "Makanan1"
+  },
+  {
+    "image": "../../../src/assets/img/makanan2.jpg",
+    "title": "Makanan2"
+  },
+  {
+    "image": "../../../src/assets/img/makanan3.jpg",
+    "title": "Makanan3"
+  },
+  {
+    "image": "../../../src/assets/img/makanan4.jpg",
+    "title": "Makanan4"
+  }
+]
