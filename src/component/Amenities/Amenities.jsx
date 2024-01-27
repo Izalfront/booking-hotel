@@ -47,6 +47,7 @@ const Amenities = () => {
               <div className="card-content">
                 <h3>{item.title}</h3>
                 <p style={{ whiteSpace: 'pre-line' }}>{item.description}</p>
+                <a href="#">Jelajahi</a>
               </div>
             </div>
           ))}

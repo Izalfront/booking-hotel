@@ -11,3 +11,19 @@
 }
 
 /* ====== carousel card ======= */
+.slider__card {
+  padding-bottom: 2rem;
+}
+
+.carousel-card {
+  margin-bottom: 12rem;
+}
+
+.card-content a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.8rem 2rem;
+  background-color: var(--primary-color);
+}
