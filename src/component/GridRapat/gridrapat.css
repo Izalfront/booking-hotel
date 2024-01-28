@@ -1,0 +1,11 @@
+.planning__tools {
+  background-color: #f5f5f5;
+}
+
+.grid__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc__rapat {
+}

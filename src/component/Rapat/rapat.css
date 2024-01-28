@@ -26,4 +26,17 @@
 
 .description p {
   line-height: 2;
+  padding-bottom: 2rem;
+}
+
+.btn__meminta {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: white;
+  padding: 1rem 2rem;
+  background-color: var(--primary-color);
+}
+
+.btn__meminta:hover {
+  background-color: #e67300;
 }

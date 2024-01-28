@@ -66,6 +66,9 @@ const HeadRapat = () => {
             <br />
             Kami akan mengatur kebutuhan Anda secara detail sehingga Anda dapat fokus pada rancangan besarnya.
           </p>
+          <a href="#" className="btn__meminta">
+            MEMINTA PENAWARAN.
+          </a>
         </div>
       </section>
     </>
