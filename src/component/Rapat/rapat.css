@@ -1,0 +1,29 @@
+.head__titles {
+  position: absolute;
+  z-index: 1;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
+.head__titles h2 {
+  margin-bottom: 3rem;
+}
+
+.head__titles h1 {
+  font-size: 3rem;
+}
+
+.description {
+  text-align: center;
+  margin-top: 3rem;
+  margin-right: 18rem;
+  margin-left: 18rem;
+}
+
+.description p {
+  line-height: 2;
+}

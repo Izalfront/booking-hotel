@@ -2,6 +2,7 @@
 import React from 'react';
 import Slider from 'react-slick';
 import HeadPenawaran from './penawaran.json';
+import './penawaran.css';
 const PenawaranSpesial = () => {
   const settings = {
     dots: true,
@@ -33,6 +34,10 @@ const PenawaranSpesial = () => {
   };
   return (
     <>
+      <div className="head__title">
+        <h2>Bekerja, Terhubung dan Merayakan</h2>
+        <h1 style={{ fontSize: '4rem' }}>DI PUSAT KOTA BANDUNG</h1>
+      </div>
       <div className="hero__content">
         <div className="img__background">
           <Slider {...settings} className="slider__bg">

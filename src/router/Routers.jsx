@@ -14,7 +14,7 @@ const Routers = () => {
       <Route path="/home" element={<Home />} />
       <Route path="/akomodasi" element={<Akomodasi />} />
       <Route path="/Penawaranspesial" element={<Penawaran />} />
-      <Route path="/acara" element={<Acara />} />
+      <Route path="/rapatacara" element={<Acara />} />
     </Routes>
   );
 };

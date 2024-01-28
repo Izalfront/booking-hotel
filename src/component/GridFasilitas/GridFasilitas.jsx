@@ -13,6 +13,7 @@ const GridFasilitas = () => {
           </div>
           <div className="desc__grid">
             <h1>{item.head}</h1>
+            <div className="line"></div>
             <p className="sub__head">{item.sub__head}</p>
             <p>{item.desc}</p>
             <a href="#">Reservasi</a>
