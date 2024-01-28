@@ -13,7 +13,7 @@ const Grid = () => {
           <div className="desc__1">
             <p>Ruang Rapat</p>
           </div>
-          <div className="line1" style={{ marginLeft: '11rem', marginRight: '26rem', marginBottom: '0', paddingBottom: '0' }}></div>
+          <div className="line1" style={{ marginLeft: '11rem', marginRight: '20rem', marginBottom: '0', paddingBottom: '0' }}></div>
           <div className="desc__detail">
             <div className="isi__1">
               <p>Dapatkan informasi lebih lanjut mengenai ruang pertemuan kami yang berlokasi di lantai khusus, dilengkapi ruangan meeting dengan berbagai ukuran.</p>

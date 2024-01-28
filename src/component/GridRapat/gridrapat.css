@@ -9,6 +9,19 @@
 
 .desc__rapat {
   padding: 5rem;
+  margin-left: 6rem;
+}
+
+.line__1 {
+  width: 100px;
+  height: 2px;
+  background-color: var(--primary-color);
+  display: inline-block;
+  margin-left: 1rem;
+  vertical-align: middle;
+  padding-left: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
 }
 
 .doc__1 {
@@ -19,4 +32,8 @@
 
 .doc__1:hover {
   color: var(--primary-color);
+}
+
+.img__rapat {
+  width: 50%;
 }
