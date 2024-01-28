@@ -8,4 +8,15 @@
 }
 
 .desc__rapat {
+  padding: 5rem;
+}
+
+.doc__1 {
+  display: flex;
+  cursor: pointer;
+  padding-bottom: 1rem;
+}
+
+.doc__1:hover {
+  color: var(--primary-color);
 }
