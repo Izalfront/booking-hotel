@@ -3,6 +3,10 @@ import React from 'react';
 import './layananbisnis.css';
 import { BiCog } from 'react-icons/bi';
 import { BiChalkboard } from 'react-icons/bi';
+import { BiDetail } from 'react-icons/bi';
+import { BiAlarm } from 'react-icons/bi';
+import { BiStreetView } from 'react-icons/bi';
+import { BiStar } from 'react-icons/bi';
 const LayananBisnis = () => {
   return (
     <>
@@ -22,6 +26,25 @@ const LayananBisnis = () => {
           </a>
         </div>
       </div>
+      {/* ======== layanan favorit ========= */}
+      <section className="layanan__favorit">
+        <h3>4 FITUR YANG AKAN SANGAT ANDA SUKAI</h3>
+        <div className="line"></div>
+        <div className="content__layanan">
+          <div className="meeting__direktor">
+            <BiStreetView size={80} style={{ opacity: '0.5', marginRight: '100px' }} />
+          </div>
+          <div className="response__bisnis">
+            <BiAlarm size={80} style={{ opacity: '0.5', marginRight: '100px' }} />
+          </div>
+          <div className="daily__meeting">
+            <BiDetail size={80} style={{ opacity: '0.5', marginRight: '100px' }} />
+          </div>
+          <div className="meeting__service">
+            <BiStar size={80} style={{ opacity: '0.5' }} />
+          </div>
+        </div>
+      </section>
     </>
   );
 };
