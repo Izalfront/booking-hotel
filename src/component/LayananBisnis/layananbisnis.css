@@ -1,0 +1,38 @@
+.grid__layananbisnis {
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.service__bisnis {
+  margin-right: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.service__bisnis p {
+  margin-top: 1rem;
+}
+
+.peralatan__bisnis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.peralatan__bisnis p {
+  margin-top: 1rem;
+}
+
+.btn__lebih {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 2rem;
+}
