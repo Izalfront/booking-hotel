@@ -44,7 +44,10 @@ const Home = () => {
   return (
     <>
       {/* ======== hero section start ========== */}
-
+      <div className="head__title" style={{ marginTop: '5rem' }}>
+        <h2>Selamat datang di Khan Place Hotel</h2>
+        <h1 style={{ fontSize: '3rem' }}>DI PUSAT KOTA BANDUNG</h1>
+      </div>
       <div className="hero__content">
         <div className="img__background">
           <Slider {...settings} className="slider__bg">
