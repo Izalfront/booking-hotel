@@ -31,17 +31,25 @@ const LayananBisnis = () => {
         <h3>4 FITUR YANG AKAN SANGAT ANDA SUKAI</h3>
         <div className="line"></div>
         <div className="content__layanan">
-          <div className="meeting__direktor">
-            <BiStreetView size={80} style={{ opacity: '0.5', marginRight: '100px' }} />
+          <div className="meeting__service">
+            <BiStreetView size={80} style={{ opacity: '0.5' }} />
+            <p className="sub__favorite">Khan Place® Meeting Director</p>
+            <p className="desc__favorite">Narahubung yang berdedikasi penuh untuk menjamin kelancaran seluruh acara Anda. Kami menangani semua acara Anda dengan rinci, sehingga Anda dapat fokus pada hal yang lebih besar.</p>
           </div>
-          <div className="response__bisnis">
-            <BiAlarm size={80} style={{ opacity: '0.5', marginRight: '100px' }} />
+          <div className="meeting__service">
+            <BiAlarm size={80} style={{ opacity: '0.5' }} />
+            <p className="sub__favorite">Two-hour response guarantee</p>
+            <p className="desc__favorite">Dalam waktu dua jam, kami akan merespon permintaan Anda mengenai ketersediaan ruang rapat, dan ketersediaan tanggal.</p>
           </div>
-          <div className="daily__meeting">
-            <BiDetail size={80} style={{ opacity: '0.5', marginRight: '100px' }} />
+          <div className="meeting__service">
+            <BiDetail size={80} style={{ opacity: '0.5' }} />
+            <p className="sub__favorite">Daily meetings debrief</p>
+            <p className="desc__favorite">Melalui layanan kami, kami dapat memberi Anda daftar terperinci dari rincian biaya harian acara Anda, sehingga Anda dapat mengelola anggaran secara efektif secara real-time.</p>
           </div>
           <div className="meeting__service">
             <BiStar size={80} style={{ opacity: '0.5' }} />
+            <p className="sub__favorite">Meetings Service Excellence</p>
+            <p className="desc__favorite">Dinilai oleh para pelaku bisnis pertemuan, sebagai memberikan layanan pertemuan berkualitas tinggi dan kepuasan secara keseluruhan.</p>
           </div>
         </div>
       </section>
