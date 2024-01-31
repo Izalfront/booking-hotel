@@ -10,11 +10,11 @@ import image4 from '../../../src/assets/img/image4.jpg';
 import image5 from '../../../src/assets/img/image5.jpg';
 const CarouselCard = () => {
   const carouselData = [
-    { title: 'Premium Suite', description: 'Suite kamar yang nyaman dengan fasilitas premium.', image: image1 },
-    { title: 'Deluxe Room', description: 'Kamar mewah dengan pemandangan indah.', image: image2 },
+    { title: 'Premium Suite', description: 'Villa besar untuk keluarga dengan suasana yang hangat.', image: image1 },
+    { title: 'Deluxe Room', description: 'Kamar eksklusif untuk pengalaman menginap yang istimewa.', image: image2 },
     { title: 'Executive Room', description: 'Kamar eksklusif untuk pengalaman menginap yang istimewa.', image: image3 },
     { title: 'Family Villa', description: 'Villa besar untuk keluarga dengan suasana yang hangat.', image: image4 },
-    { title: 'Ocean View Penthouse', description: 'Penthouse dengan pemandangan laut yang menakjubkan.', image: image5 },
+    { title: 'Ocean View Penthouse', description: 'Kamar eksklusif untuk pengalaman menginap yang istimewa.', image: image5 },
   ];
 
   const settings = {
@@ -56,6 +56,9 @@ const CarouselCard = () => {
               <h3>{item.title}</h3>
               <p style={{ whiteSpace: 'pre-line' }}>{item.description}</p>
             </div>
+            <a href="#" className="btn__lanjut">
+              Lebih Lanjut
+            </a>
           </div>
         ))}
       </Slider>

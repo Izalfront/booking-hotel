@@ -77,3 +77,14 @@ section {
   margin-left: 45%;
   border-top: solid 2px var(--primary-color);
 }
+
+.btn__lanjut {
+  text-decoration: none;
+  padding: 0.8rem 1rem;
+  font-weight: 400;
+  color: white;
+  background-color: var(--primary-color);
+  display: block;
+  position: absolute;
+  margin-top: 10px; /* Atur margin sesuai kebutuhan */
+}
