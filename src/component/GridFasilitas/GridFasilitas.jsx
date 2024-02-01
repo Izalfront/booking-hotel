@@ -16,7 +16,7 @@ const GridFasilitas = () => {
             <div className="line"></div>
             <p className="sub__head">{item.sub__head}</p>
             <p>{item.desc}</p>
-            <a href="#">Reservasi</a>
+            <a href="/detailpenawaran">Reservasi</a>
           </div>
         </div>
       ))}

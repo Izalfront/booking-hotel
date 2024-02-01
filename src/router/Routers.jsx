@@ -7,6 +7,8 @@ import Home from '../pages/Home';
 import Akomodasi from '../pages/Akomodasi';
 import Penawaran from '../pages/Penawaranspesial';
 import Acara from '../pages/RapatAcara';
+import DetailPewaran from '../pages/DetailPewaran';
+
 const Routers = () => {
   return (
     <Routes>
@@ -15,6 +17,8 @@ const Routers = () => {
       <Route path="/akomodasi" element={<Akomodasi />} />
       <Route path="/Penawaranspesial" element={<Penawaran />} />
       <Route path="/rapatacara" element={<Acara />} />
+      {/* ========= detail halaman ======== */}
+      <Route path="/detailpenawaran" element={<DetailPewaran />} />
     </Routes>
   );
 };
