@@ -1,7 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import '../component/DetailPenawaran/detailpenawaran.css';
-import { Container, Row, Col, Form, ListGroup } from 'reactstrap';
+import { Container, Row, Col, Form } from 'reactstrap';
+import Reservasi from '../component/Reservasi/Reservasi';
 import img1 from '../../src/assets/img/chinese.png';
 const DetailPewaran = () => {
   // submit request to the server
@@ -80,6 +81,10 @@ const DetailPewaran = () => {
                 </Form>
               </div>
             </div>
+            {/* ======== price list ======== */}
+          </Col>
+          <Col lg="4">
+            <Reservasi />
           </Col>
         </Row>
       </Container>
