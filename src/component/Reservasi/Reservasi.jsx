@@ -4,8 +4,8 @@ import './reservasi.css';
 import { useNavigate } from 'react-router-dom';
 import { Form, FormGroup, ListGroup, ListGroupItem, Button } from 'reactstrap';
 
-const Reservasi = ({ tour, avgRating }) => {
-  const { price, reviews } = tour;
+const Reservasi = ({ reservasi, avgRating }) => {
+  const { price, reviews } = reservasi;
   const navigate = useNavigate();
 
   const [credentials, setCredentials] = useState({

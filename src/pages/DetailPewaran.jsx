@@ -1,18 +1,41 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import '../component/DetailPenawaran/detailpenawaran.css';
 import { Container, Row, Col, Form } from 'reactstrap';
 import Reservasi from '../component/Reservasi/Reservasi';
 import img1 from '../../src/assets/img/chinese.png';
+import { useParams } from 'react-router-dom';
+
 const DetailPewaran = () => {
-  // submit request to the server
+  const { id } = useParams();
+  const reviewMsgRef = useRef('');
+  const [reservasiRating, setReservasi] = useState(null);
+
+  // Dummy data for reservasi (replace this with your data fetching logic)
+  const reservasi = {
+    id,
+    photo: img1,
+    title: 'EARLY BIRD Chinese New Year Dinner',
+    address: 'Your Address',
+    desc: 'Your Description',
+    price: 100, // Replace with actual price
+    reviews: [], // Replace with actual reviews array
+    city: 'Your City',
+    distance: 5, // Replace with actual distance
+    maxGroupSize: 10, // Replace with actual max group size
+  };
+
+  const { title, address, desc, price, reviews, city, distance, maxGroupSize } = reservasi;
+
+  // Dummy calculation for average rating (replace this with your actual logic)
+  const avgRating = 4.5;
+
   const submitHandler = (e) => {
     e.preventDefault();
     const reviewText = reviewMsgRef.current.value;
-
-    // later will call our API and load our data from database
+    // You can implement logic to handle the review submission here
   };
-  const options = { day: 'numeric', month: 'long', year: 'numeric' };
+
   return (
     <section>
       <Container>
@@ -21,31 +44,38 @@ const DetailPewaran = () => {
             <div className="penawaran__content">
               <img src={img1} alt="" style={{ width: '50%' }} />
               <div className="penawaran__info">
-                <h2>EARLY BIRD Chinese New Year Dinner</h2>
+                <h2>{title}</h2>
                 <div className="d-flex align-items-center gap-5">
                   <span className="penawaran__rating d-flex align-items-center gap-1">
                     <i className="ri-star-fill" style={{ color: 'var(--secondary-color)' }}>
-                      12
+                      {avgRating}
                     </i>
                   </span>
                   <span>
-                    <i className="ri-map-pin-user-fill"> 12</i>
+                    <i className="ri-map-pin-user-fill"></i>
+                    {address}
                   </span>
                 </div>
                 <div className="penawaran__extra-details">
                   <span>
-                    <i className="ri-map-pin-2-line"></i> Bandung
+                    <i className="ri-map-pin-2-line"></i>
+                    {city}
                   </span>
                   <span>
-                    <i className="ri-map-pin-time-line"></i> testin123
+                    <i className="ri-money-dollar-circle-line"></i>${price} /per person
                   </span>
                   <span>
-                    <i className="ri-group-line"></i> People
+                    <i className="ri-map-pin-time-line"></i> {distance} k/m
+                  </span>
+                  <span>
+                    <i className="ri-group-line"></i>
+                    {maxGroupSize} People
                   </span>
                 </div>
                 <h5>Description</h5>
+                <p>{desc}</p>
                 <p>Routing Lorem ipsum dolor sit amet.</p>
-                <a href="#" className="primary__btn" style={{ textDecoration: 'none', color: 'white' }}>
+                <a href="#reservasi" className="primary__btn" style={{ textDecoration: 'none', color: 'white' }}>
                   Reservasi
                 </a>
               </div>
@@ -53,27 +83,18 @@ const DetailPewaran = () => {
               {/* ========= penawaran review section start ======== */}
               <div className="penawaran__reviews mt-4">
                 <h4>Reviews</h4>
-                <Form onSubmit={{ submitHandler }}>
+                <Form onSubmit={submitHandler}>
                   <div className="d-flex align-items-center gap-3 mb-4 rating__group">
-                    <span>
-                      1 <i className="ri-star-s-fill"></i>
-                    </span>
-                    <span>
-                      2 <i className="ri-star-s-fill"></i>
-                    </span>
-                    <span>
-                      3 <i className="ri-star-s-fill"></i>
-                    </span>
-                    <span>
-                      4 <i className="ri-star-s-fill"></i>
-                    </span>
-                    <span>
-                      5 <i className="ri-star-s-fill"></i>
-                    </span>
+                    {/* Dummy stars for visual representation */}
+                    {[1, 2, 3, 4, 5].map((star) => (
+                      <span key={star}>
+                        {star} <i className="ri-star-s-fill"></i>
+                      </span>
+                    ))}
                   </div>
 
                   <div className="review__input">
-                    <input type="text" name="" id="" placeholder="share your thoughts" />
+                    <input type="text" ref={reviewMsgRef} placeholder="Share your thoughts" />
                     <button type="submit" className="btn primary__btn text-white">
                       Send
                     </button>
@@ -84,7 +105,7 @@ const DetailPewaran = () => {
             {/* ======== price list ======== */}
           </Col>
           <Col lg="4">
-            <Reservasi />
+            <Reservasi reservasi={reservasi} avgRating={avgRating} />
           </Col>
         </Row>
       </Container>
