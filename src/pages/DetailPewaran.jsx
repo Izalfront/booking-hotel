@@ -9,7 +9,6 @@ import { useParams } from 'react-router-dom';
 const DetailPewaran = () => {
   const { id } = useParams();
   const reviewMsgRef = useRef('');
-  const [reservasiRating, setReservasi] = useState(null);
 
   // Dummy data for reservasi (replace this with your data fetching logic)
   const reservasi = {
@@ -25,16 +24,10 @@ const DetailPewaran = () => {
     maxGroupSize: 10, // Replace with actual max group size
   };
 
-  const { title, address, desc, price, reviews, city, distance, maxGroupSize } = reservasi;
+  const { title, address, desc, price, city, distance, maxGroupSize } = reservasi;
 
   // Dummy calculation for average rating (replace this with your actual logic)
   const avgRating = 4.5;
-
-  const submitHandler = (e) => {
-    e.preventDefault();
-    const reviewText = reviewMsgRef.current.value;
-    // You can implement logic to handle the review submission here
-  };
 
   return (
     <section>
@@ -64,9 +57,7 @@ const DetailPewaran = () => {
                   <span>
                     <i className="ri-money-dollar-circle-line"></i>${price} /per person
                   </span>
-                  <span>
-                    <i className="ri-map-pin-time-line"></i> {distance} k/m
-                  </span>
+
                   <span>
                     <i className="ri-group-line"></i>
                     {maxGroupSize} People
@@ -83,7 +74,7 @@ const DetailPewaran = () => {
               {/* ========= penawaran review section start ======== */}
               <div className="penawaran__reviews mt-4">
                 <h4>Reviews</h4>
-                <Form onSubmit={submitHandler}>
+                <Form>
                   <div className="d-flex align-items-center gap-3 mb-4 rating__group">
                     {/* Dummy stars for visual representation */}
                     {[1, 2, 3, 4, 5].map((star) => (
