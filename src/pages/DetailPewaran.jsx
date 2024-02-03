@@ -15,11 +15,11 @@ const DetailPewaran = () => {
     id,
     photo: img1,
     title: 'EARLY BIRD Chinese New Year Dinner',
-    address: 'Your Address',
-    desc: 'Your Description',
+    address: 'Bandung',
+    desc: '',
     price: 100, // Replace with actual price
     reviews: [], // Replace with actual reviews array
-    city: 'Your City',
+    city: 'Bandung',
     distance: 5, // Replace with actual distance
     maxGroupSize: 10, // Replace with actual max group size
   };
